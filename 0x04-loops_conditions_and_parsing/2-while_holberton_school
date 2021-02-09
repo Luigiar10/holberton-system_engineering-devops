@@ -1,0 +1,8 @@
+#!/usr/bin/bash env
+# script that display ten times Holberton School with While
+i=1
+while [ $i -le 10 ]
+do
+echo "Holberton School"
+((i++))
+done
